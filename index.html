@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Chicken Splat</title>
+        <style>
+            body {
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            }  
+        </style>
+    </head>
+    <body>
+        <canvas id="canvas" width="650" height="650" style="position:absolute; top:0px; left:25%" oncontextmenu="event.preventDefault();"></canvas>
+        <script>
+            //Create the canvas variables
+            canvas = document.getElementById("canvas");
+            ctx = canvas.getContext("2d");
+        </script>
+        <script src="js/game.js"></script>
+        <script src="js/difficulty.js"></script>
+        <script>            
+            //Run the loop
+            setInterval(loop, 10);            
+        </script>
+    </body>
+</html>
