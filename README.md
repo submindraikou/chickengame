@@ -1,6 +1,9 @@
 # CONTROLS
+
 WASD to move
+
 Q or + will increase the speed
+
 E or - will decrease the speed
 
 tl;dr I was bored
